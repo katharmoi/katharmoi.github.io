@@ -1,0 +1,72 @@
+/*----------------------------*/
+
+
+/*------phones: 0-480px-------*/
+
+
+/*----------------------------*/
+
+@media only screen and (max-width: 480px) {}
+
+
+/*------------------------------------------*/
+
+
+/*Small phones - Small Tablets: 767px-------*/
+
+
+/*------------------------------------------*/
+
+@media only screen and (max-width: 767px) {}
+
+
+/*------------------------------------------*/
+
+
+/*--------------Tablets: 768px-1023---------*/
+
+
+/*------------------------------------------*/
+
+@media only screen and (max-width: 1023px) {
+    body {
+        font-size: 18px;
+    }
+    
+    section{
+        padding: 60px 0;
+    }
+    
+    .long-copy{
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .steps-box{
+        margin-top: 10px;
+    }
+    
+    .work-steps{
+        margin-bottom: 40px;
+    }
+    
+}
+
+
+/*------------------------------------------*/
+
+
+/*-----Big Tablets- PCs: 768px-1023---------*/
+
+
+/*------------------------------------------*/
+
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row{
+        padding: 0 2%;
+    }
+}
